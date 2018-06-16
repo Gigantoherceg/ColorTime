@@ -48,7 +48,7 @@ if (seconds < 10) {
   seconds = '0' + seconds;
 }
   
-var clockFace = seconds + 'h : ' + seconds + 'm : ' + seconds + 's';
+var clockFace = hours + 'h : ' + minutes + 'm : ' + seconds + 's';
 var hexColor = '#' + hours + minutes*2 + seconds*2;
   
 document.getElementById('clock').innerHTML = clockFace;  
